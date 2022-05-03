@@ -1,0 +1,226 @@
+body {
+  background-image:url(../imgsaed/background1.png);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.h7 {
+	text-align:right;
+	color:white;
+	background-color:black;
+	font-size:46px;
+}
+
+.h6 {
+	text-align:center;
+	color:white;
+	background-color:black;
+	font-size:46px;
+}
+
+.p3 {
+	text-align:center;
+	color:black;
+	background-color:blue;
+	font-size:26px;
+}
+
+.container
+{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header #pname h1
+{
+    float: left;
+	margin: 6px 0px 6px 6px;
+	text-align: center;
+    color:black;
+    font-size: 35px;
+    padding-bottom: 0px;
+    font-family: "Brush Script MT", cursive;
+}
+
+ul {	
+  border: 1px solid black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+li {
+  display: inline;
+  float: right;
+}
+
+li a {
+  border: 1px solid black;
+  font-style: italic ;	
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 14px 19.3px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: black;
+}
+
+
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  text-align: left;
+  display: none;
+  position: absolute;
+  background-color: red;
+  min-width: 465px;
+  /*اللي جوا الرئيسية*/
+}
+
+ .dropdown:hover .dropbtn {
+  color: black;
+  /* كلمة الرئيسية*/
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: red;
+}
+
+/*.dropdown-content {
+  display: block;
+  background-color: red;
+  
+}*/
+
+.myDiv {
+  overflow:auto;	
+  margin: auto;
+  border: 5px outset white;
+  background-color: white;    
+  text-align: left;
+  padding: 0px 16px;
+  width:700px;
+  height:210px;
+  background-image:linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+
+p{
+font-size:19px;	
+color: black;
+}
+
+h2{
+text-align:center;	
+font-size:26px;	
+font-style: bold;	
+color: black;
+}
+
+h1.pa {
+text-align:center;	
+padding: 0px ;	
+font-style: bold;	
+color: black;
+background-color:orange;
+}
+
+.rightimg {
+float:right;
+width:15%;
+height:10%;
+}
+
+.tableimg{
+width:50%;
+height:50%;	
+}
+
+table {
+
+  border-collapse: collapse;
+  font-size:40px;
+  width:500px;
+  height:200px;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, .td1 {
+  
+  border-collapse: collapse;
+  font-size:40px;
+  color:blue;
+  width:500px;
+  height:200px;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.td2 {
+  border-collapse: collapse;
+  font-size:40px;
+  color:black;
+  width:500px;
+  height:200px;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pm {
+	background-color:black;
+	color:white;
+}
+	
+	
+.pnews{
+font-size:19px;	
+color: black;
+}
+
+.divy{
+  float:left;
+  overflow:auto;	
+  margin:60px;
+  border: 5px outset white;
+  background-color: white;    
+  text-align: right;
+  width:300px;
+  height:510px;
+  padding:6px;
+}
+
+
+
+.newsimg
+{
+	width:98%;
+	
+}
+
+video {
+	
+width:422px;
+padding:8px;
+
+}
+
+
+
+
+
+

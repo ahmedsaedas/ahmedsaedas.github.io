@@ -1,0 +1,49 @@
+body{
+background-color: rgba(30, 50, 70);
+margin: 0;
+padding: 0;
+}
+.registration{
+width:300px;
+height:450px;
+margin:200px 0 0 700px;
+border-radius: 30px;
+background-color:#eee;
+opacity: 0.6;
+position: absolute;
+padding: 70px;
+}
+h2{
+text-align: center;
+margin-top:5px;
+margin-bottom: 30px;
+font-size: 27px;
+background-color: blue;
+color:red;
+border-radius:  30px;
+height:50px;
+width: 180px;
+}
+.registration input{
+width: 90%;
+margin-bottom: 30px;
+font-family: 'index flower',cursive;
+border:none;
+height: 35px;
+outline: none;
+color:black;}
+button{
+height: 45px;
+width: 90px;
+background: #ef0206;
+color:orange;
+font-size: 20px;
+font-weight: bold;
+margin-left: 100px;
+}
+button:hover{
+color:yellow;
+}
+a:hover{
+  color:red;
+}

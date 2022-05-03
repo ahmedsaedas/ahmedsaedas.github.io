@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    color: #ffffff;
+}
+body{
+    background-color: #d8d8da;
+    background-size: cover;
+    padding-top:130px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content{
+    max-width:1400px;
+    margin: auto;
+    background: #d8d8da;
+    /* padding:10px; */
+    /* border-radius: 20px; */
+}
+nav{
+    width: 100%;
+    position: fixed;
+    left:0;
+    top:0;
+    background-color:#97180c;
+    /* box-shadow: 3px 3px 10px rgb(180, 15, 0); */
+    box-sizing: border-box;
+    /* display: flex; */
+    justify-content: space-between;
+    /* padding: 10px; */
+    height: 100px;
+    z-index: 1;
+}
+nav h1{
+    float: left;
+    letter-spacing: 2.5px;
+    margin: auto;
+    margin-right: 0;
+    color: #fff;
+    margin-left:0px;
+    font-size: 40px;
+    padding: 17px;
+    text-align: right;
+}
+
+nav ul{
+    list-style: none;
+    margin: 11px;
+    
+}
+
+nav ul li{
+    display:inline-block;
+    padding: 34px; 
+    top: 30px; 
+    font-size: 16px;
+}
+ nav ul li:hover{
+    background-color: #060677;
+    
+} 
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidenav {
+    width: 185px;
+    height: 504px;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 0px;
+    background: #060677;
+    overflow-x: hidden;
+    /* padding: 107px 0px; */
+  }
+  
+  .sidenav a {
+    padding: 0px 0px 30px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+  }
+  
+  .sidenav a:hover {
+    color: #ffffff;
+    background-color: #97180c;
+  }
+.newsdiv {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    /* margin: 10px; */
+}
+.news1 {
+    display: flex;
+    width:50%;
+    background-color: #ffffff;
+    /* border-radius: 20px; */
+    margin: 15px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.news1 img{
+    width: 100%;
+    height: 350px;
+    /* border-radius: 20px; */
+}
+.news1 p{
+    padding:20px;
+    text-align: left;
+    color: black;
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bolder;
+}
+.news1:hover{
+    transform: scale(1.1);
+}
+.news{
+    width: 20%;
+    height: 350px;
+    /* display: inline; */
+    
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 20px; */
+    margin: 15px;
+    cursor: pointer;
+    transition: 0.2s linear;
+    
+}
+.news img{
+    width:100%;
+    height: 70%;
+    /* border-radius: 20px; */
+}
+.news p{
+    /* padding:20px; */
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bolder;
+}
+.news:hover{
+    transform: scale(1.1);
+}
+.vids { 
+    display: flex;
+    width: 100%;
+}
+.vids video{
+    display: inline;
+    width:100% !important;
+}
+.vids div{
+    width: 150%;
+    margin: 10px;
+}
+.videos1 {
+    display: inline;
+    width: 70%;
+}
+.videos1 video{
+    height: 510px;
+    width:100% !important;
+}
+.videos1 div{
+    width: 100%;
+    margin: 10px;
+}
+.videos2 {
+    display: block;
+    margin: auto;
+    width: 70% !important;
+}
+.videos2 video{
+    display: block;
+    width:93% !important;
+    height: 227px;
+}
+.videos2 div{
+    width: 100%;
+    margin: 10px;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #c2c2c2;
+}
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+}
+.table {
+    display: inline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #97180c;
+  }
+  tr:nth-child(odd) {
+    background-color: #060677;
+  }
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 350px;
+  }
+  footer{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(180, 15, 0);
+    box-sizing: border-box;
+}
+footer p {
+    text-align: center;
+}

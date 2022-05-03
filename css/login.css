@@ -1,0 +1,49 @@
+body{
+background-image: url("../img/p7.JFIF");
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+height:100%;
+place-items: center;
+width: 100%;
+}
+form{
+background-color:pink;
+width:380px;
+height: 350px;
+margin:50px auto;
+border-radius: 20px;
+opacity: 0.8;
+}
+h3{
+color:black;
+font-size: 30px;
+text-align: center;
+font-weight: bold;
+margin-top: 30px;
+background-color: green;
+}
+input[type="text"],[type="password"]{
+color:black;
+width: 75%;
+height: 10%;
+margin-bottom: 30px;
+margin-left: 35px;
+border:1px solid yellow;
+border-radius: 15px;
+outline: none;}
+input[type="checkbox"]{
+margin: 3px 0 20px 50px;}
+button{
+  width: 25%;
+  height: 10%;
+  margin-left: 100px;
+  margin-top: 18px;
+  border:1px solid green;
+  color:red;
+  font-size: 20px;
+}
+button:hover{
+  color:blue;
+}
