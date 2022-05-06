@@ -1,0 +1,126 @@
+body{
+  background-color: #cacaca;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+}
+.content{
+  margin: 100px;
+  width: auto;
+  padding: 0px
+}
+  .h7 {
+      text-align:right;
+      color:white;
+      background-color:black;
+      font-size:46px;
+  }
+  
+  .h6 {
+      text-align:center;
+      color:white;
+      background-color:black;
+      font-size:46px;
+  }
+  
+  .p3 {
+      text-align:center;
+      color:black;
+      background-color:blue;
+      font-size:26px;
+  }
+  
+  .container
+  {
+      width: 100%;
+      margin: auto;
+      overflow: hidden;
+  }
+  
+  header #pname h1
+  {
+      float: left;
+      margin: 6px 0px 6px 6px;
+      text-align: center;
+      color:black;
+      font-size: 35px;
+      padding-bottom: 0px;
+      font-family: "Brush Script MT", cursive;
+  }
+  
+  ul {	
+    border: 1px solid black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+  }
+  
+  li {
+    display: inline;
+    float: right;
+  }
+  
+  li a {
+    border: 1px solid black;
+    font-style: italic ;	
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 14px 19.3px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: black;
+  }
+  
+  
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    text-align: left;
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 465px;
+    /*اللي جوا الرئيسية*/
+  }
+  
+   .dropdown:hover .dropbtn {
+    color: black;
+    /* كلمة الرئيسية*/
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: red;
+  }
+  .news {
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+  }
+  .news2 {
+    width: 30%;
+    height: 250px;
+    margin: 15px;
+  }
+  .news2 p {
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
