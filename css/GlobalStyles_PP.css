@@ -1,0 +1,179 @@
+body{
+    background-color: #cacaca;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    
+  }
+  .content{
+    margin: 100px;
+    width: auto;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container
+  {
+      width: 100%;
+      margin: auto;
+      overflow: hidden;
+  }
+  
+  header #pname h1
+  {
+      
+      margin: 5px 5px 0px 0px;
+      text-align: right;
+      color:white;
+      font-size: 35px;
+      padding-bottom: 2px;
+      font-family: "Brush Script MT", cursive;
+  }
+  
+  .container ul {
+    border: 1px solid white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .container li {
+    display: inline;
+    float: left;
+  }
+  
+  
+  .container li a {
+    border: 1px solid white;
+    font-style:italic;	
+    display: block;
+    color: orange;
+    text-align: center;
+    font-size: 27px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .container li a:hover {
+    color: pink;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    min-width: 514px;
+    z-index: 1;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+   .dropdown:hover .dropbtn {
+    color: pink;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: black;
+  }
+  
+  .myDiv {
+    overflow:auto;	
+    margin: auto;
+    border: 5px outset white;
+    background-color: white;    
+    text-align: left;
+    padding: 0px 16px;
+    width:1200px;
+    height:200px;
+    background-image:linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  }
+  
+  p{
+  font-size:19px;	
+  color: black;
+  }
+  
+  h2{
+  text-align:center;	
+  font-size:26px;	
+  font-style: bold;	
+  color: black;
+  }
+  
+  h1.pa {
+  text-align:center;	
+  padding: 0px ;	
+  font-style: bold;	
+  color: black;
+  background-color:orange;
+  }
+  
+  .rightimg {
+  float:right;
+  width:15%;
+  height:10%;
+  }
+  .news {
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+  }
+  .news2 {
+    width: 30%;
+    height: 335px;
+    margin: 15px;
+  }
+  .news2 p {
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+  }
+  .news2 img {
+      height: 255px;
+      width: 100%;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ul {
+      list-style-type: none;
+      font-size: 18.5px;
+  }
+  .rank {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+  }
+  .rank2 {
+      width: 50%;
+  }
+  .tbl {
+    width: 50%;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid ;
+    border-collapse: collapse;
+  }
+  .tbl th {
+      text-align: center;
+      font-weight: bolder;
+      font-size: larger;
+      border: 1px solid black;
+      border-collapse: collapse;
+  }
+  .tbl td {
+      text-align: center;
+      font-size: large;
+      border: 1px solid black;
+      border-collapse: collapse;
+  }
