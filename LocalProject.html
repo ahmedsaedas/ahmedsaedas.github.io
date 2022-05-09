@@ -6,6 +6,23 @@
     <meta name="description" content="">
     <meta mame="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/LocalStyles.css">
+	<script>
+        function myFunction() {
+          alert("This table for the stats of eg.premier league");
+        }
+    </script>
+    <script>
+        function myFunction3() {
+          let text;
+          let team = prompt("Please enter your favorite team in egypt:");
+          if (team == null || team == "") {
+            text = "User cancelled the prompt.";
+          } else {
+            text = team ;
+          }
+          document.getElementById("favteam").innerHTML = text;
+        }
+    </script>
     <style>
         table {
             width: 70%;
@@ -48,6 +65,10 @@
    </div>
     <div class="content">
         <div id="news">
+		<button type="button"
+            onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.</button>
+            <p id="demo"></p>
             <h1 style="color: #000000;width: 200px; display: block; text-decoration:underline ;border-radius: 25px;
                     background: #b61515;
                     padding: 20px; 
@@ -102,6 +123,7 @@
             <ul>
             <li>
                 <h2><u>Egyption Permier league</u></h2>
+		    <button class="button" onclick="myFunction()">Click here</button>
             <table>
                 <thead>
 
@@ -246,7 +268,9 @@
                     <div class="score3">
                         <img src="Local_img/ahly.jpg" alt="">
                         <p style="color: black; text-align: left;">ALAHLY<br>3RD Place with 10 Wins</p> 
-                    </div>               
+                    </div> 
+			<button class="button" onclick="myFunction3()">favorite team</button>
+                    <p id="favteam"></p> 
                 </li>
             </ul>
         </div>
