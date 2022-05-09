@@ -36,15 +36,22 @@
 	
 	</header> 
  
-    <div class="registration">
+    <form class="registration">
       <h2>registration</h2>
        <input type="text" placeholder="email or phone" />
        <input type="text" placeholder="first name"/>
        <input type="text" placeholder="last name"/>
        <input type="password" placeholder="password"/>
         <input type="password" placeholder="confirm password"/>
-       <button>sign in</button>
-       <p>have an acount?<a href="login.html"> log in</a></p>
-     </div>
+       <button id="btn">sign in</button>
+        <p>have an acount?<a href="login.html"> log in</a></p>
+     </form>
+<script>
+let btn=document.getElementById('btn');
+ btn.onclick= function(){
+  console.log('welcom,successfully registration');
+ }
+</script>
 </body>
 </html>
+

@@ -38,12 +38,24 @@
 	</header>
      <form>
           <h3>login</h3>
-             <input type="text" placeholder="username" />
-           <input type="password" placeholder="password" required/>
+           <input type="text" placeholder="username" id="username">
+           <input type="text" placeholder="password"id="password">
            <input type="checkbox">forget password<br>
-           <button>check</button>
-        </form>
-
+           <button onclick="validate()">check</button>
+    </form>
+<script>
+function validate(){
+var username=decument.getElementById("username").value;
+var password=decument.getElementById("password").value;
+if(username=="leader"&&password=="team"){
+  alert("login successfully");
+  return false;
+}
+else{
+  alert("login failed");
+}
+}
+</script>
 
 </body>
 </html>
