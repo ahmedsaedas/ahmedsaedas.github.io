@@ -237,3 +237,12 @@ tr:nth-child(even) {
 footer p {
     text-align: center;
 }
+.button {
+    background-color: #060677;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: #97180c;
+}
